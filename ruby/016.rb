@@ -47,5 +47,5 @@ describe Target, "exponent's sum of the digits" do
   end
 end
 
-target = Target.new(15)
-p target.power_total
+target = Target.new(1000)
+p target.add_the_digits
