@@ -30,7 +30,7 @@ describe Target, 'finding the sum of powers' do
   end
 
   it 'will find the last ten digits of the power_sum' do
-    target.last_ten.must_equal "0405071317".to_i
+    target.last_ten.must_equal 405071317
   end
 end
 
