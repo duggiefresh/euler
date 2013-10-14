@@ -14,11 +14,7 @@ class MultipleFinder
 
   def add_multiples
     sum = 0
-    number.times do |num|
-      if num % 3 == 0 || num % 5 == 0
-        sum += num
-      end
-    end
+    number.times { |num| sum += num if num % 3 == 0 || num % 5 == 0 }
     sum
   end
 end
